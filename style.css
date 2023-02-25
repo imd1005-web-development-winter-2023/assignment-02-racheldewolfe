@@ -54,6 +54,10 @@ header{
   color:#0D4D90;
 }
 
+.header-nav ul li a:hover {
+  text-decoration: underline;
+}
+
  .header-signup{
   grid-column-start: 4;
   grid-column-end: 5;
@@ -71,6 +75,12 @@ header{
   background-color: #FCFEFF;
   border-radius: 8px;
   border: solid 2px #F3EEA4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ .header-button1 button:hover {
+  text-decoration: underline;
  }
 
  .header-button2 button {
@@ -78,4 +88,103 @@ header{
   background-color: #0D4D90;
   border-radius: 8px;
   border: solid 2px #0D4D90;
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+
+ .header-button2 button:hover {
+  text-decoration: underline;
+ }
+
+ .hero{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  
+ }
+
+ .hero ul {
+  color: #0D4D90;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-start:3;
+  grid-column-end:6;
+
+  /*centered??*/
+  margin-right:2rem;
+ }
+
+ .hero li{
+  list-style-type: none;
+ }
+
+
+ .hero a {
+  color: #0D4D90;
+  text-decoration: none;
+ }
+
+ .hero a:hover {
+  font-weight: bold;
+ }
+
+ .hero p {
+  grid-column-start:2;
+  grid-column-end:7;
+  grid-row-start:2;
+  color: #0D4D90;
+ }
+
+ .hero button {
+  background-color: #0D4D90;
+  color: #FCFEFF;
+  font-weight: bold;
+  border-radius: 8px;
+  border: solid 2px #0D4D90;
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin-top: 1rem;
+ }
+
+ .section1 {
+ display: flex;
+ flex-direction: row;
+ margin: 10rem 0rem 10rem 10rem;
+ }
+
+ .section1-img{
+ width: 40rem;
+ }
+
+ .section1-right {
+  padding-left: 2rem;
+  align-self: center;
+ }
+
+ .section1-text {
+  color: #0D4D90;
+  display: flex;
+ }
+
+ .bold {
+  font-weight: bold;
+  margin: 0 0.3rem;
+ }
+
+ .section1-buttons button{
+  display: flex;
+  flex-direction: column;
+  color: #FCFEFF;
+  background-color: #0D4D90;
+  border-radius: 8px;
+  border: solid 2px #0D4D90;
+ }
+
+ .section1-buttons-top {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
  }

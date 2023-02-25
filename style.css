@@ -189,3 +189,39 @@ header{
   margin-top: 1.5rem;
  }
 
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
+}
+
+.section2-img {
+width: 45rem;
+
+}
+
+.section2-text {
+  background-color: #0D4D90;
+  padding: 3rem;
+  color:#FCFEFF;
+  box-shadow: 0px 0px 26px 1px gray;
+
+}
+
+.section2-text-h2 {
+  background-color: #6A92BB;
+  border: solid 2px #FCFEFF;
+  padding: 0.2rem;
+}
+
+.section2-text-ph {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.section2 ul {
+  margin-bottom: 1rem;
+}

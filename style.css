@@ -202,6 +202,9 @@ header{
   justify-content: space-between;
   margin-left: 10rem;
   margin-right: 10rem;
+  padding-bottom: 5rem;
+  padding-top: 8rem;
+  
   
 }
 
@@ -239,7 +242,7 @@ margin-top: 10rem;
   text-align: center;
   border: solid 3px #F3EEA4;
   border-radius: 8px;
-  margin: 10rem 10rem;
+  margin: 15rem 20rem;
   padding: 2rem;
 }
 
@@ -281,7 +284,7 @@ margin-top: 10rem;
 
 
  .form input {
-  width: 25rem;
+  width: 15rem;
   border-radius: 8px;
   border: solid 2px #FCFEFF;
   margin: 0.5rem 0rem;
@@ -301,3 +304,63 @@ margin-top: 10rem;
   padding-bottom: 3rem;
   box-shadow: 0px -2px 20px lightgray;
  }
+
+ .section4 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+
+
+ }
+
+ .section4-pictures {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 10rem;
+ }
+
+ .section4-camps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .section4-parties {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .section4-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .section4 img {
+  width:15rem;
+ }
+
+ .section4 button{
+  color: #FCFEFF;
+  background-color: #0D4D90;
+  border-radius: 8px;
+  border: solid 2px #0D4D90;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  }
+
+  .section4 button:hover {
+    text-decoration: underline;
+  }
+
+  .section4 h2 {
+    background-color: #6A92BB;
+    border: solid 2px #FCFEFF;
+    padding: 0.5rem 1.5rem;
+    color: #FCFEFF;
+    width: 15rem;
+    margin: 1rem;
+    font-weight: bold;
+  }

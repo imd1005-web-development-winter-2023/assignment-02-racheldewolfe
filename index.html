@@ -1,29 +1,244 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+<head>
+  <!-- Set the page title -->
+  <title>Assignment 02</title>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Set the charset we're using to UTF-8 -->
+  <meta charset="UTF-8" />
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+  <!-- Set the screens default zoom / scale to 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+  <!-- Specifies the document mode for Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- We are using a CSS Reset file to standardize browser default css -->
+  <link rel="stylesheet" href="reset.css" />
+
+  <!-- This is where all of our awesome CSS code goes -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--
 
       YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
     -->
-  </body>
+
+  <header>
+
+    <h2 class="sr-only">Site header</h2>
+
+    <div class="header">
+      <div class="header-img">
+        <img src="StarPA_Logo.jpg" alt="Company logo" />
+      </div>
+
+      <div class="header-nav">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Programs</a></li>
+            <li><a href="#">Other Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-signup">
+        <div class="header-button1">
+          <button type="button">Star Fam Login</button>
+        </div>
+        <div class="header-button2">
+          <button type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <main>
+    <h1 class="sr-only">Star Performance Academy Home Page</h1>
+
+
+    <section class="hero">
+      <a class="hero-dance hero-text" href="#">DANCE</a>
+      <a class="hero-music hero-text" href="#">MUSIC</a>
+      <a class="hero-acting hero-text" href="#">ACTING</a>
+
+      <div class="hero-line">
+        <hr />
+      </div>
+
+      <button type="button">Register Now</button>
+    </section>
+
+
+    <section class="section1">
+      <div class="section1-img">
+        <img src="StarPA_HeroImg.jpg" alt="Picture collage of students" />
+      </div>
+
+      <div class="section1-right">
+        <div class="section1-text">
+          <p>Where students <b>grow</b> and <b>burst</b> into life!</p>
+        </div>
+
+        <div class="section1-buttons">
+          <button type="button" class="section1-buttons-top">Claim your free trial class today!</button>
+          <button type="button">View class schedule</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="section2-img">
+        <img src="StarPA_Awards.jpg" alt="Waterloo chronicles Reader's Choice Awards Logo" />
+      </div>
+
+      <div class="section2-text">
+        <div class="section2-text-header">
+          <span>THANK YOU!</span>
+        </div>
+
+        <div class="section2-text-p">
+          <div class="section2-text-ph">
+            <p>Star has received 15 Reader's Choice Awards:</p>
+          </div>
+
+          <div class="section2-text-p1">
+            <p>5 Diamond Awards</p>
+            <ul>
+              <li>Best Local Sports Team - The Star Team</li>
+              <li>Best Music Instruction</li>
+              <li>Best Virtual Instruction</li>
+              <li>2 Best Dance Teacher - Kristen Werner and Madison Eby</li>
+            </ul>
+          </div>
+
+          <div class="section2-text-p2">
+            <p>7 Platinum Awards</p>
+            <ul>
+              <li>Best Dance Studio </li>
+              <li>Best Children's Entertainment</li>
+              <li>Best Kids Activities</li>
+              <li>Best Kid's Camp</li>
+              <li>Best Summer Camp</li>
+              <li>Best Music Instructor - Norm Zabala</li>
+            </ul>
+          </div>
+
+          <div class="section2-text-p3"></div>
+          <p>3 Gold Awards</p>
+          <ul>
+            <li>Best Dance Teacher - Rosemarie Harris </li>
+            <li>Best Acting Instructor - Julia Allan</li>
+            <li>Best Overall Service</li>
+          </ul>
+        </div>
+
+      </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section3">
+      <h2>We've got more!</h2>
+
+      <div class="section3-pictures">
+        <div class="section3-camps">
+          <img src="StarPA_Camps.png" alt="Two kids laughing outside" />
+          <button type="button">Summer Camps</button>
+        </div>
+
+        <div class="section3-parties">
+          <img src="StarPA_Parties.png" alt="Kids laughing wearing shirts they made" />
+          <button type="button">Birthday Parties</button>
+        </div>
+
+        <div class="section3-space">
+          <img src="StarPA_Space.jpg" alt="Studio space" />
+          <button type="button">Rental Space</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section4">
+      <div>
+        <span>Join Us Today!</span>
+      </div>
+      <form class="form">
+
+        <div class="form-email-label">
+          <label for="email">Email</label>
+        </div>
+
+        <div class="form-email-input">
+          <input id="email" name="email" type="text" required="required" />
+        </div>
+
+        <div class="form-password-label">
+          <label for="password">Password</label>
+        </div>
+
+        <div class="form-password-input">
+          <input id="password" name="password" type="password" required="required" />
+        </div>
+
+        <div class="form-submit">
+          <button type="submit">Join</button>
+        </div>
+        <div class="form-clear">
+          <button type="reset">Clear</button>
+        </div>
+
+        </div>
+
+      </form>
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-img">
+        <img src="StarPA_Logo.jpg" alt="Company Logo" />
+      </div>
+      <div class="footer-visitus">
+        <p>Visit Us</p>
+        <p>1-455 Dutton Drive</p>
+        <p>Waterloo, ON N2L4C7</p>
+      </div>
+      <div class="footer-contactus">
+        <p>Contact Us</p>
+        <p>(519) 886-8600 </p>
+        <p>joinus@starperformanceacademy.com</p>
+        <p>Text “QUESTION” 647-370-2787</p>
+      </div>
+      <div class="footer-followus">
+        <p>Follow Us</p>
+        <p>Instagram: @starpacademy</p>
+        <p>Facebook: Star Performance Academy</p>
+      </div>
+    </div>
+
+    <div class="copyright">
+      2023 &#169; Star Performance Academy
+    </div>
+  </footer>
+</body>
+
 </html>
